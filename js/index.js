@@ -1,3 +1,8 @@
+/**
+ *  A Ge'ez number memory game program, based on
+ * shuffling algorithm and flipping cards used to memorize and learn
+ * ge'ez numbers
+ */
 class game {
 	constructor() {
 		this.cardsNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
@@ -33,12 +38,13 @@ class game {
 			this.cardsNumbers.push(this.cardsNumbers[i])
 		}
 
-		//Shuffle the array randomly for the game
+        //Shuffle the array randomly for the game
+         //extend the time limit a bit longer if needed
 		this.cardsNumbers = this.cardsNumbers.sort(function () {
 			return Math.random() - 0.5
 		})
 
-		//this.cards.length = 20 (number of cards)
+        //this.cards.length = 20 (number of cards)
 		this.cards.length = this.cardsNumbers.length
 
 		//Create the 20 cards and add their styles, events and corresponding html
