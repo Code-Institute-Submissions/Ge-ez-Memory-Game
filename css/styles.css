@@ -75,7 +75,7 @@ body.home {
 }
 
 .soundControl .soundInput:checked+.soundButton .soundIcon {
-    background: url('../img/icons/volume-up.svg');
+    background: url('../img/cards/icons/volume-up.svg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 50%;
