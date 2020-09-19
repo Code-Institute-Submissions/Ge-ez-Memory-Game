@@ -195,10 +195,9 @@ class game {
             }
             this.seeTimer()
             setTimeout('newGame.timer()', 100)
-        }
+        }  
     }
-
-    seeTimer() {
+     seeTimer() {
         if (this.hour < 10) this.timeText = ''
         else this.timeText = this.hour
         if (this.minutes < 10) this.timeText = this.timeText + '0'
@@ -230,3 +229,4 @@ class game {
 
 const newGame = new game()
  newGame.startGame()
+ 

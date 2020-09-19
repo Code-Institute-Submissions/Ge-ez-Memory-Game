@@ -278,7 +278,66 @@ body.home {
 .button:hover {
     color: #fff;
 }
+/*----------------------Social icons-----------------*/
 
+.text {
+  margin: 0 60px;
+}
+
+h1 {
+  font-size: 32px;
+  margin-top: 0;
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-style: italic;
+  text-align: center;
+  background: #FF7D6D;
+  color: #fff;
+  padding: 4px;
+}
+
+p,
+span,
+.twitter {
+  font: normal normal 10px Arial;
+  text-align: center;
+  color: #998578;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.twitter {
+  color: #000000;
+  text-decoration: none;
+  display: block;
+  padding: 14px;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+}
+
+.twitter:hover {
+  color: #FF7D6D;
+  text-decoration: none;
+}
+
+span {
+  font-style: italic;
+  display: block;
+}
+
+img {
+  max-width: 100%;
+}
+footer {
+	height: 20px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+  z-index: 0;
+}
 @media screen and (max-width: 1024px) {
     #game {
         height: auto;
