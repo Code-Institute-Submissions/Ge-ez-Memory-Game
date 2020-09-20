@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-weight: bolde;
 }
 
 body {
@@ -55,7 +54,6 @@ body.home {
     width: 2.5em;
     border-radius: 50%;
     cursor: pointer;
-    background: -webkit-linear-gradient(to right, #434343, #000000);
     background: linear-gradient(to right, #434343, #000000);
 }
 
@@ -63,19 +61,18 @@ body.home {
     display: inline-block;
     height: 100%;
     width: 100%;
-    background: url('../img/cards/icons/mute.svg');
+    background: url("../img/cards/icons/mute.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 50%;
 }
 
 .soundControl .soundInput:checked+.soundButton {
-    background: -webkit-linear-gradient(to right, #000000, #434343);
     background: linear-gradient(to right, #000000, #434343);
 }
 
 .soundControl .soundInput:checked+.soundButton .soundIcon {
-    background: url('../img/cards/icons/volume-up.svg');
+    background: url("../img/cards/icons/volume-up.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 50%;
@@ -98,7 +95,7 @@ body.home {
 .info-game {
     width: 500px;
     height: 40px;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgb(255, 255, 255, 0.7);
     margin-bottom: 2em;
     border-radius: 5px;
     display: flex;
@@ -112,7 +109,6 @@ body.home {
     margin-left: 0.5em;
     background: #000000;
     color: #fff;
-    background: -webkit-linear-gradient(to right, #434343, #000000);
     background: linear-gradient(to right, #434343, #000000);
     outline: none;
     border: none;
@@ -137,7 +133,7 @@ body.home {
 .btn-success {
     color: #fff;
     border-color: #ffff99;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgb(255, 255, 255, 0.7);
     border-radius: 5rem;
 }
 
@@ -154,13 +150,7 @@ body.home {
     transform-style: preserve-3d;
     transform-origin: center right;
     transition: transform 1s;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
     user-select: none;
-    -webkit-tap-highlight-color: transparent;
     background-position: center;
     background-size: cover;
 }
@@ -200,7 +190,7 @@ body.home {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url('../img/background-home.jpg');
+    background: url("../img/background-home.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -220,13 +210,7 @@ body.home {
 }
 
 .noSelect {
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
     user-select: none;
-    -webkit-tap-highlight-color: transparent;
 }
 
 .button {
@@ -235,7 +219,6 @@ body.home {
     padding: 20px;
     color: #fff;
     background: #000000;
-    background: -webkit-linear-gradient(to right, #434343, #000000);
     background: linear-gradient(to right, #434343, #000000);
     border-radius: 35px;
     position: relative;
@@ -248,7 +231,6 @@ body.home {
     font-weight: 600;
     letter-spacing: 5px;
     transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
-    -webkit-text-stroke: 0px white;
 }
 
 .content a {
@@ -263,35 +245,33 @@ body.home {
     height: 2px;
     background: white;
     position: absolute;
-    top: 0px;
-    right: 0px;
-    box-shadow: 0px 5px 0px white, 0px 10px 0px white, 0px 15px 0px white, 0px 20px 0px white, 0px 25px 0px white, 0px 30px 0px white, 0px 35px 0px white, 0px 40px 0px white, 0px 45px 0px white, 0px 50px 0px white, 0px 55px 0px white;
+    top: 0;
+    right: 0;
+    box-shadow: 0 5px 0 white, 0 10px 0 white, 0 15px 0 white, 0 20px 0 white, 0 25px 0 white, 0 30px 0 white, 0 35px 0 white, 0 40px 0 white, 0 45px 0 white, 0 50px 0 white, 0 55px 0 white;
 }
 
 .button:hover::after {
     width: 160px;
     z-index: -1;
-    -webkit-text-stroke: 4px white;
-    box-shadow: -10px 5px 0px white, -20px 10px 0px white, -30px 15px 0px white, -40px 20px 0px white, -50px 25px 0px white, -60px 30px 0px white, -70px 35px 0px white, -80px 40px 0px white, -90px 45px 0px white, -100px 50px 0px white, -110px 55px 0px white;
+    box-shadow: -10px 5px 0 white, -20px 10px 0 white, -30px 15px 0 white, -40px 20px 0 white, -50px 25px 0 white, -60px 30px 0 white, -70px 35px 0 white, -80px 40px 0 white, -90px 45px 0 white, -100px 50px 0 white, -110px 55px 0 white;
 }
 
 .button:hover {
     color: #fff;
 }
-/*----------------------Fotter -----------------*/
- footer {
-  text-align: center;
-  color: rgb(243, 235, 235);
-  font-style: bold;
+
+footer {
+    text-align: center;
+    color: rgb(243, 235, 235);
 }
+
 a {
     color: rgb(39, 39, 233);
     background-color: transparent;
-    font-style: bold;
-    text-decoration-line: underline;
+    text-decoration: none;
 }
-	
-@media screen and (max-width: 1024px) { 
+
+@media screen and (max-width: 1024px) {
     #game {
         height: auto;
         width: 95%;
@@ -373,7 +353,7 @@ a {
 }
 
 .rotate {
-    animation: rotation 4s infinite linear;
+    animation: rotation 4s linear infinite;
 }
 
 @keyframes rotation {
