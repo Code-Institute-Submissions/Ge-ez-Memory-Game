@@ -84,7 +84,7 @@ The following User Stories helped me to create a design that would satisfy the n
     * With this in mind, I started a workspace on [Figma](https://www.figma.com/file/4qeFVv4TZCsubETcYYdIsU/Geez-Memory-Game-(Copy)?node-id=10%3A2).
        - The card background images represent the royal flag often featured the emblem of a Lion of Judah, a crowned lion carrying a cross centred in the banner's yellow midsection.
          The flag is understood to be a link between the Ethiopian Orthodox Tewahedo Church, the peoples, and the nation that was united.
-##### Flag Meaning
+### Flag Meaning
 - The green band represents Ethiopia’s fertile land and natural wealth; 
 - The yellow, hope, peace and harmony of its people;
 - The red, its bravery and sacrifice paid to defend and preserve the country’s sovereignty.
@@ -119,7 +119,7 @@ This project consists of two pages, one of which can be accessed with a single p
 - Retry/Restart the game button
 - A silent button
 
-#### How The Game Works
+### How The Game Works
 
 The game board consists of Twenty "cards" arranged in a flex. The deck comprises ten different pairs of cards, each with other Geez numbers symbols on one side. The cards are placed randomly on the grid with the symbol face down. The gameplay rules are very
 simple: open two hidden cards at a time to locate the ones that match!
@@ -134,13 +134,13 @@ Each turn:
 - When a player wins the game, a modal pop up a Won and and show the Moves.
 
 
-#### What Will I Learn?
+### What Will I Learn?
 
 The memory game presents the first opportunity to fully combine HTML, CSS, and JavaScript into a large project. 
 Aside from solidifying your skills with these three technologies, you'll learn how best to combine them in a complex application.
-What's the ideal workflow? How many files do you need? Do you write the HTML first? The JavaScript?
+What's the ideal workflow? How many files do you need? Do you write the HTML first? The JavaScript? And so on
 
-#### Hints
+### Hints
 
 - I recommend starting off working on a very simple grid of cards. Don't worry about styling, just get something clickable on the page
 - Figure out how each card is structured. Remember, you have to represent two sides of the card. Are you going to have two separate elements stacked on top of each other?
@@ -243,10 +243,10 @@ The images are from Pexels, The National Geographic and The Ocean Cleanup and ar
 
 #### Examples and Tutorials and Samples
 
-* [The freecodecamp/](https://www.freecodecamp.org/) used for the project and understand the syntacs for my code.
-* [Youtuber](https://www.whatsdev.com/) used to for inspiration and ideas for the wbiste structure. 
-* [Youtuber](http://www.cleverprogrammer.com/)used to for inspiration and ideas for the game structure.
-* [Mozilla.org](https://developer.mozilla.org/en-US/)used for the project and understand the syntacs for my code.
+* [The freecodecamp](https://www.freecodecamp.org/) used for the project and understand the syntacs for my code.
+* [Whatsdev] (https://www.whatsdev.com/) used to for inspiration and ideas for the wbiste structure. 
+* [cleverprogrammer] (http://www.cleverprogrammer.com/)used to for inspiration and ideas for the game structure.
+* [Mozilla.org] (https://developer.mozilla.org/en-US/)used for the project and understand the syntacs for my code.
 
 
  ##### Inspiration resources for writing this README file:
@@ -270,7 +270,7 @@ The images are from Pexels, The National Geographic and The Ocean Cleanup and ar
 - My family and friends, for their support and patience, especially (JUAN DAVID), without you, I couldn't be able to finish this project.
 
 # Licensing 
-This project is licensed under the [MIT License](https://github.com/JS-goose/udacity-project-2/blob/master/LICENSE) and you are **free** to do the following with the code, subject to the conditions provided within the license found at the link above:
+This project is licensed under the [MIT License](https://github.com/YOSTINA-dh/Ge-ez-Memory-Game/blob/master/LICENSE) and you are **free** to do the following with the code, subject to the conditions provided within the license found at the link above:
 * use
 * Copy
 * Modify
