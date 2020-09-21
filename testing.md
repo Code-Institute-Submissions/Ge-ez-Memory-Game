@@ -9,7 +9,7 @@ The testing process is outlined below. It includes:
 - Manually testing the Bootstrap 4 MODEL
 
 
-To return to the previous document, click [here](https://github.com/YOSTINA-dh/Ge-ez-Memory-Game/blob/master/README.md.
+To return to the previous document, click [here](https://github.com/YOSTINA-dh/Ge-ez-Memory-Game/blob/master/README.md).
 
 ### Testing User Stories
 
@@ -17,8 +17,12 @@ These following tests were conducted to test the experience of each user outline
 
 #### Project stakeholders
 
-The creators of this game want a consistent and encouraging design to inspire users to be more excited than intimidated by the subject;The creators of this game want a consistent and encouraging design to inspire users to be more excited than intimidated by the subject; Playing Geez numbers and scripts can be daunting to think about at first. This is achieved through a consistent design of the log, the background image on the first page, constant use of powerful colors, and encourages the user to move on to the next page.
-The creators could feel confident and optimistic that the user experience would allow them to go further and learn more about the numbers and enjoy playing, thereby increasing the number of players and meeting their aims.
+The creators of this game want a consistent and encouraging design to inspire users to be more excited than intimidated by the subject;
+The creators of this game want a consistent and encouraging design to inspire users to be more excited than intimidated by the subject; 
+Playing Geez numbers and scripts can be daunting to think about at first. This is achieved through a consistent design of the log, 
+the background image on the first page, constant use of powerful colors, and encourages the user to move on to the next page.
+The creators could feel confident and optimistic that the user experience would allow them to go further and learn more about the numbers and enjoy playing,
+thereby increasing the number of players and meeting their aims.
 
 #### New users
 
@@ -47,17 +51,17 @@ The creators could feel confident and optimistic that the user experience would 
 My HTML code was passed through the [W3C Markup Validation Service](https://validator.w3.org/).
 Doing so brought up the errors below that I resolved in the following ways:
  - *index.html* - The first section of my 'Home' page was missing an div close tag, so I add a closed </div> tag to correct this. 
- - *Game.html* - Have an error with the bootstrap four modal and tried to fix but its change the whole structure of the game.
- 
+ - *Game.html* - Have an error with the bootstrap four modal and tried to fix but its change the whole structure of the game. So i just live it as it is.
+               - Have an error with  the soundButton code ("<label> and</div>")
  #### CSS
 I checked my CSS code with the [W3C Markup Validation Service](https://jigsaw.w3.org/css-validator/). 
 This test did not produce any errors.
 
 #### JavaScript
-I used [JSHint](https://jigsaw.w3.org/css-validator/) to check my JavaScript files.
+I used [Jsvalidate](https://codebeautify.org/jsvalidate) to check my JavaScript files.
 This brought up the following errors with the steps I took to correct them:
 - *All JavaScript files* - The validator showed me that I had placed my local JavaScript tags at the end of my code outside of the `</body>` tag. I corrected this subsequently in each file.
-- *index.js* - I was alerted to the fact that I was missing three semicolons in my code, as seen in the screenshot below. I corrected this by adding semicolons accordingly.
+- *index.js* - I was alerted to the fact that I was missing some semicolons in my code, as seen in the screenshot below. I corrected this by adding semicolons accordingly.
  
  ### Testing compatibility with different browsers
 
@@ -84,7 +88,7 @@ The following tests were made to see that all links responded as they should:
 - The 'Back' button in the toper on the left side successfully work the user can back to the home page.
 - Each button on all pages was clicked to ensure that they work correctly and were actively connected. 
 
-#### Results and changes`
+#### Results and changes
 Once I began working on this project, I continued testing as I developed the Game page . This led to the following changes, corrections, and observations:
 - I realised I would need to include a won messages to the user depending on their score, either congratulating them or encouraging them to try again. I therefore changed the `if` statement for my function to check the user's results and alter the message accordingly.
 - I also realized I had to add a sound if the user would like to play with a soundtrack, especially kids; therefore, I add a sound button statement to include all kinds of players
