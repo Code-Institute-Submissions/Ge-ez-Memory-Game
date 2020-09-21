@@ -23,6 +23,9 @@ body.home {
     display: none;
 }
 
+
+/*----backButton------*/
+
 .backButton {
     position: absolute;
     left: 2em;
@@ -38,6 +41,9 @@ body.home {
     transition: 0.2s;
     cursor: pointer;
 }
+
+
+/*-----------soundControl------------*/
 
 .soundControl {
     position: absolute;
@@ -78,6 +84,9 @@ body.home {
     background-size: 50%;
 }
 
+
+/*----game------*/
+
 #game {
     display: flex;
     height: 500px;
@@ -87,10 +96,16 @@ body.home {
     justify-content: space-around;
 }
 
+
+/*-------pauseGame*/
+
 .pauseGame {
     pointer-events: none;
     opacity: 0.8;
 }
+
+
+/*----------info-game----------*/
 
 .info-game {
     width: 500px;
@@ -137,6 +152,9 @@ body.home {
     border-radius: 5rem;
 }
 
+
+/*------- Cards-----*/
+
 .card {
     display: flex;
     height: 115px;
@@ -155,9 +173,15 @@ body.home {
     background-size: cover;
 }
 
+
+/*-----to rotates the cards-----*/
+
 .rotateCard {
     transform: translateX(-100%) rotateY(-180deg);
 }
+
+
+/*-----Front and back-----*/
 
 .front,
 .back {
@@ -170,6 +194,9 @@ body.home {
     font-size: 35px;
     backface-visibility: hidden;
 }
+
+
+/*-----cardFront-----*/
 
 .cardFront {
     background-image: url(../img/background.jpg);
@@ -260,6 +287,9 @@ body.home {
     color: #fff;
 }
 
+
+/*-----footer------*/
+
 footer {
     text-align: center;
     color: rgb(243, 235, 235);
@@ -270,6 +300,9 @@ a {
     background-color: transparent;
     text-decoration: none;
 }
+
+
+/*------media queries------*/
 
 @media screen and (max-width: 1024px) {
     #game {

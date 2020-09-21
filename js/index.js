@@ -48,6 +48,13 @@ class game {
 
         // Shuffle the array randomly for the game
         // extend the time limit a bit longer if needed
+        // function shuffleCards() sheffels the given array and returns
+        // a randomly shuffled numbers.
+        //  The random index will be the floor of the multiple of random
+        //  number picked in between 1 and 10but execlusive. Then update
+        //  the current index from 20 to 1, make swaps between current index
+        //  and the random index.
+
         this.cardsNumbers = this.cardsNumbers.sort(() => Math.random() - 0.5);
 
         // this.cards.length = 20 (number of cards)
@@ -144,6 +151,8 @@ class game {
                             this.time = true;
                         }, 1000);
                         // add the event to the first card so that it can be flipped again
+                        //  flipCards(card, value) function shows two cards a time and filps them
+                        // back if their value is different otherwise sets the background color white.
                         this.addEvents(this.firstCardSelected);
                     }
                     this.numberCardsSelected = 0;
@@ -166,7 +175,8 @@ class game {
         location.reload();
     }
 
-    // Timer functions
+    // Timer functions to display the countdown timer
+    // used startTimer(), PauseTime() and newgame()
 
     startTimer() {
         if (this.stop == true) {
@@ -190,11 +200,14 @@ class game {
                 this.minutes = 0;
                 this.hour++;
             }
+            //extend the time limit a bit longer if needed
+            //setTimeout(flippCardsBack, 1000); extended flipping time for 1 sec
             this.seeTimer();
             setTimeout('newGame.timer()', 100);
         }
     }
-
+    // Functions to display the countdown timer
+    // used seeTimer(), PauseTime() and newgame()
     seeTimer() {
         if (this.hour < 10) this.timeText = '';
         else this.timeText = this.hour;

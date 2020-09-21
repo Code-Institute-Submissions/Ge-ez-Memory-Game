@@ -134,7 +134,7 @@ Each turn:
 - When a player wins the game, a modal pop up a Won and and show the Moves.
 
 
-### What Will I Learn?
+### What will I learn?
 
 The memory game presents the first opportunity to fully combine HTML, CSS, and JavaScript into a large project. 
 Aside from solidifying your skills with these three technologies, you'll learn how best to combine them in a complex application.
@@ -244,8 +244,8 @@ The images are from Pexels, The National Geographic and The Ocean Cleanup and ar
 #### Examples and Tutorials and Samples
 
 * [The freecodecamp](https://www.freecodecamp.org/) used for the project and understand the syntacs for my code.
-* [Whatsdev] (https://www.whatsdev.com/) used to for inspiration and ideas for the wbiste structure. 
-* [cleverprogrammer] (http://www.cleverprogrammer.com/)used to for inspiration and ideas for the game structure.
+* [Whatsdev](https://www.whatsdev.com/) used to for inspiration and ideas for the wbiste structure. 
+* [cleverprogrammer](http://www.cleverprogrammer.com/)used to for inspiration and ideas for the game structure.
 * [Mozilla.org] (https://developer.mozilla.org/en-US/)used for the project and understand the syntacs for my code.
 
 
@@ -255,8 +255,8 @@ The images are from Pexels, The National Geographic and The Ocean Cleanup and ar
 #### Pages used for information
 
 * [The freecodecamp/](https://www.freecodecamp.org/)
-* [YouTuber](https://www.whatsdev.com/)
-* [YouTuber](http://www.cleverprogrammer.com/)
+* [whatsdev](https://www.whatsdev.com/)
+* [cleverprogrammer](http://www.cleverprogrammer.com/)
 * [W3schools](https://www.w3schools.com/)
 * [W3C](https://www.w3.org/)
 * [Stack overflow](https://stackoverflow.com/)
